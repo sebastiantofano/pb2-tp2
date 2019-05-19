@@ -4,7 +4,7 @@ public class CuentaBancaria {
 	private Double saldo;
 
 	public CuentaBancaria() {
-
+		this.saldo = 0.00;
 	}
 
 	public Double getSaldo() {

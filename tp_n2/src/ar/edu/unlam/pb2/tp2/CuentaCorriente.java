@@ -32,8 +32,12 @@ public class CuentaCorriente extends CuentaBancaria{
 			costoAdicional = descubiertoDeOperacion * 0.05;
 			// calcular el nuevo saldo que va a ser el saldo actual menos (el monto retirado + el costo adicional)
 			saldo = saldo - (valor + costoAdicional);
+			
 			//setear el nuevo saldo
 			setSaldo(saldo); 
+			
+			System.out.print("Ha retirado: $"+valor);
+			System.out.print("Su Saldo actual: $"+getSaldo());
 		}
 	}
 }

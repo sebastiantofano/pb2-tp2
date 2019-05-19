@@ -12,6 +12,7 @@ public class CuentaSueldo extends CuentaBancaria {
 			saldo -= valor;
 			setSaldo(saldo);
 			System.out.print("Ha retirado: $"+valor);
+			System.out.print("Su Saldo actual: $"+getSaldo());
 		}else {
 			System.out.print("La operación no pudo realizarse porque la cuenta no dispone suficientes fondos");
 		}
